@@ -1,0 +1,54 @@
+.testimonal-testimonal {
+  width: 471px;
+  height: 720px;
+  position: relative;
+}
+.testimonal-text {
+  line-height: 24px;
+}
+
+
+
+@media(max-width: 1600px) {
+  .testimonal-testimonal {
+    width: 935px;
+    height: 714px;
+    padding-left: var(--dl-space-space-halfunit);
+  }
+  .testimonal-text {
+    top: 125px;
+    left: 9px;
+    position: absolute;
+  }
+  .testimonal-root-class-name {
+    width: 300px;
+  }
+  .testimonal-root-class-name1 {
+    width: 300px;
+  }
+  .testimonal-root-class-name2 {
+    width: 300px;
+  }
+}
+@media(max-width: 1200px) {
+  .testimonal-testimonal {
+    width: 259px;
+    height: 614px;
+  }
+}
+@media(max-width: 767px) {
+  .testimonal-testimonal {
+    width: 760px;
+    height: 230px;
+  }
+  .testimonal-text {
+    font-size: 14px;
+    line-height: 21px;
+  }
+}
+@media(max-width: 479px) {
+  .testimonal-testimonal {
+    width: 250px;
+    height: 246px;
+  }
+}
